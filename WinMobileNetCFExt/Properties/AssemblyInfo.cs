@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinMobileIO")]
-[assembly: AssemblyDescription("Library of methods of working with the file system missing in NetCF")]
+[assembly: AssemblyTitle("WinMobileNetCFExt")]
+[assembly: AssemblyDescription("Library of methods and controls missing in NetCF")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Limows")]
-[assembly: AssemblyProduct("WinMobileIO")]
+[assembly: AssemblyProduct("WinMobileNetCFExt")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

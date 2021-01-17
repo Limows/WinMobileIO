@@ -1,6 +1,6 @@
-# WinMobileIO
+# WinMobileNetCFExt
 
-Library of methods of working with the file system missing in NetCF. 
+Library of methods and controls missing in NetCF. 
 The library is written in C# with NetCF 3.5 for Windows Mobile 2003 and higher.
 
 ## Assembly
@@ -16,7 +16,12 @@ It is enough to add the resulting DLL file as a Reference in your project and th
 
 ## Supported functions
 
- - FolderBrowserDialog
+ - IO namespace
+ -- FolderBrowserDialog class
+ --- SelectedPath property
+
+ - About namespace
+ -- AboutBox class
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-﻿namespace WinMobileIO
+﻿namespace WinMobileNetCFExt.IO
 {
     partial class FolderBrowserDialog
     {
