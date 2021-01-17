@@ -16,12 +16,12 @@ It is enough to add the resulting DLL file as a Reference in your project and th
 
 ## Supported functions
 
- - IO namespace
- -- FolderBrowserDialog class
- --- SelectedPath property
+### IO namespace
+ - FolderBrowserDialog class
+ - SelectedPath property
 
- - About namespace
- -- AboutBox class
+###About namespace
+ - AboutBox class
 
 ## Contributing
 
