@@ -64,7 +64,6 @@
             this.labelCompanyName.Name = "labelCompanyName";
             this.labelCompanyName.Size = new System.Drawing.Size(143, 20);
             this.labelCompanyName.Text = "Имя компании";
-            this.labelCompanyName.ParentChanged += new System.EventHandler(this.labelCompanyName_ParentChanged);
             // 
             // textBoxDescription
             // 
@@ -100,7 +99,6 @@
             this.Menu = this.MainMenu;
             this.Name = "AboutBox";
             this.Text = "О программе";
-            this.Load += new System.EventHandler(this.AboutForm_Load);
             this.ResumeLayout(false);
 
         }

@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WinMobileNetCFExt.About
 {
@@ -17,19 +18,9 @@ namespace WinMobileNetCFExt.About
             this.Text = String.Format("О программе");
             this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format("Версия {0}", AssemblyVersion);
-            this.labelBuild.Text = String.Format("Сборка от {0}", "16.01.21");
+            this.labelBuild.Text = String.Format("Сборка от {0}", AssemblyBuildDate);
             this.labelCompanyName.Text = String.Format("Автор {0}", AssemblyCompany);
             this.textBoxDescription.Text = AssemblyDescription;
-        }
-
-        private void AboutForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelCompanyName_ParentChanged(object sender, EventArgs e)
-        {
-
         }
 
         public string AssemblyVersion
@@ -37,6 +28,14 @@ namespace WinMobileNetCFExt.About
             get
             {
                 return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            }
+        }
+
+        public string AssemblyBuildDate
+        {
+            get
+            {
+                return File.GetLastWriteTime(Assembly.GetExecutingAssembly().GetName().CodeBase).ToString("dd.MM.yy");
             }
         }
 
