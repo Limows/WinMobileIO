@@ -20,7 +20,7 @@ It is enough to add the resulting DLL file as a Reference in your project and th
  - FolderBrowserDialog class
  - SelectedPath property
 
-###About namespace
+### About namespace
  - AboutBox class
 
 ## Contributing
