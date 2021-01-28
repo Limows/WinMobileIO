@@ -6,7 +6,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu MainMenu;
+        private System.Windows.Forms.MainMenu mainMenu1;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainMenu = new System.Windows.Forms.MainMenu();
+            this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.DirsBox = new System.Windows.Forms.ListBox();
             this.OKButton = new System.Windows.Forms.Button();
             this.PathBox = new System.Windows.Forms.TextBox();
@@ -80,7 +80,7 @@
             this.Controls.Add(this.PathBox);
             this.Controls.Add(this.OKButton);
             this.Controls.Add(this.DirsBox);
-            this.Menu = this.MainMenu;
+            this.Menu = this.mainMenu1;
             this.Name = "FolderBrowserDialog";
             this.Text = "Обзор";
             this.Load += new System.EventHandler(this.FolderBrowserDialog_Load);
