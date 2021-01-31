@@ -16,12 +16,16 @@ It is enough to add the resulting DLL file as a Reference in your project and th
 
 ## Supported functions
 
-### IO namespace
+### Forms namespace
  - FolderBrowserDialog class
  - SelectedPath property
 
-### About namespace
- - AboutBox class
+### Root namespace
+ - IO class
+ - GetStorageSpace method
+ - GetRemovableStorageDirectory method
+ - FindFirstFlashCard method
+ - FindNextFlashCard method
 
 ## Contributing
 
